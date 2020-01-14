@@ -110,7 +110,6 @@ namespace WeatherAppExample
             //The end of api checker part
 
 
-            //Create + Open proxy lists
             try
             {
                 using (StreamWriter sw = new StreamWriter("proxy.txt", true, System.Text.Encoding.Default))
@@ -136,9 +135,6 @@ namespace WeatherAppExample
             }
 
 
-
-            //ProxyCheckerModul
-
             WebClient web = new WebClient();
 
 
@@ -155,7 +151,7 @@ namespace WeatherAppExample
 
                     try
                     {
-                        //web.OpenReadAsync(new Uri("https://steamcommunity.com/")); //async one    
+                        //web.OpenReadAsync(new Uri("https://steamcommunity.com/")); //async one
                         web.OpenRead("https://steamcommunity.com/"); //sync one
 
                     }

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SteamApiChecker", "WeatherAppExample\SteamApiChecker.csproj", "{8D6ED91E-5EB9-4572-AAE7-8B3692685DD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SteamApiChecker", "SteamApiChecker\SteamApiChecker.csproj", "{8D6ED91E-5EB9-4572-AAE7-8B3692685DD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
